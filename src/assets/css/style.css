@@ -1,0 +1,110 @@
+#nav-container{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: large;
+    font-weight: 500;
+}
+#navbar-nav-top{
+   column-gap: 30px; 
+}
+h2.remove-whitespace {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    height: 25px;
+  }
+
+#weather-display{
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+#city-details{
+    font-size: larger;
+    color: rgb(51, 76, 239);
+}
+#weather-display-row-1{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: rgb(193, 193, 255);
+}
+#weather-display-row-2{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: rgb(193, 193, 255);
+}
+#superscript{
+    vertical-align: super;
+    font-size:50px;
+    font-weight: bold;
+}
+#temperature-display
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+}
+#temperature-image
+{
+    height: 200px;
+    width: 200px;
+}
+#temperature{
+    font-size: 100px;
+    font-weight: bold;
+}
+#temperature-description
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 70%;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 30px;
+}
+#today-description
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    line-height: 70%;
+    font-weight: bold;
+    font-size: 30px;
+}
+#temperature-display-sm
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    scale:0.9 ;
+    padding-top: 4%;
+    background-color: rgb(140, 140, 255);
+}
+.temperature-image-sm
+{
+    height: 100px;
+    width: 100px;
+}
+#superscript-sm
+{
+    vertical-align: super;
+    font-size:10px;
+    font-weight: bold;
+}
